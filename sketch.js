@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(720, 480);
+  createCanvas(windowWith, windowHeight);
   print(img.width + ' x ' + img.height);
   rectMode(CENTER);
 }
