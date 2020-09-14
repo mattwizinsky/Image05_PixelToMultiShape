@@ -1,6 +1,5 @@
-// IMAGE PIXEL MULTISHAPE
-// Generative Design Systems
-// Matthew Wizinsky
+// Matthew Wizinsky, University of Cincinnati
+// Image05_ Pixels to MultiShape
 
 var img;
 
@@ -9,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWith, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   print(img.width + ' x ' + img.height);
   rectMode(CENTER);
 }
